@@ -1,0 +1,37 @@
+﻿body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+    margin: auto;
+    background-color: beige
+}
+
+.Uberschrift
+{
+    margin-top:300px;
+}
+
+.NeueBuchEintrag {
+    margin-top: 1300px;
+    position: absolute;
+   place-items:center;
+   background-color: lightblue;
+   width: 700px;
+   height: 300px;
+   border: solid;
+   border-radius: 2px;
+}
+
+.BuchInfos
+{
+    background-color: lightgreen;
+    width: 700px;
+    height: 200px;
+    max-height: 600px;
+    border: dotted;
+position: absolute;
+top: 1050px;
+}

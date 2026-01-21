@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Digitale Bibliothek</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="BibliothekWebseite.css" />
+</head>
+<body>
+    <div class="Uberschrift">
+        <h1>Repo Bibliothek</h1>
+        <h3><br>Willkommen zur Repo Bibliothek, wo sie sich über unsere aktuelle verfügbare Bücher informieren können.
+        <br> Hier haben wir unendliche Bücher in verschiedenen Arten und Kategorien,
+        <br>aber neue Bücher können sie auch gerne in eine Liste eintragen, um eine aktuelle Übersicht zu behalten</h3>
+        <img style="width: 600px" src="Library.png" />
+    </div>
+    <div class="NeueBuchEintrag">
+        <input style="width: 200px" id="NameEingabe" placeholder="Name des Buches" />
+        <input style="width : 200px" id="AutorEingabe" placeholder="Name des Autors" />
+        <input style="width : 200px" id="ErscheinungsJahrEingabe" type="number" placeholder="Erscheinungsjahr" />
+        <textarea maxlength="500" style="width: 300px; height: 200px; position: absolute; top: 30px; left: 190px" id="KurzeZusammenfassungEingabe" placeholder="KurzeZusammenfassung"></textarea>
+        <button id="PostButton" style="top: 250px; width: 100px; position: absolute; margin-left: -375px ">Neues Buch hinzufügen</button>
+    </div>
+
+    <div class="BuchInfos">
+         <p id="BuchName"></p>
+         <p id="BuchAutor"></p>
+         <p  id="BuchErscheinungsJahr"></p>
+         <p id="BuchZusammenfassung"></p>
+        <button id="DeleteButton">Bucheintrag Löschen</button>
+        <button id="EditButton">Bucheintrag Bearbeiten</button>
+    </div>
+    
+    <p id="Notification" style="position: absolute; top: 920px; font-size: 20px"></p>
+    <select id="BuchAuswahl" style="top: 1000px; position:absolute"></select>
+
+    <script src="BibliothekWebseite.js"></script>
+</body>
+</html>
